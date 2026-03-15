@@ -1,4 +1,4 @@
-/* 1. Estilos Globales - Preparando el escenario */
+/* 1. Estilos Globales */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -6,7 +6,7 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f4f7f6; /* Un gris muy claro para que el contenido resalte */
+    background-color: #f4f7f6;
 }
 
 /* 2. Encabezado y Títulos */
@@ -26,22 +26,24 @@ h1 {
 }
 
 h2 {
-    color: #492365; /* Púrpura Weber */
+    color: #492365;
     border-bottom: 2px solid #492365;
     padding-bottom: 5px;
     margin-top: 30px;
 }
 
-/* 3. Imágenes - Haciendo que se vean profesionales */
+/* 3. Imágenes - ¡Ahora responsivas! */
 img {
     display: block;
-    margin: 20px 0;
-    border-radius: 15px; /* Bordes redondeados */
+    max-width: 100%; /* Evita que la foto se salga del borde */
+    height: auto;
+    margin: 20px auto; /* Centrada */
+    border-radius: 15px;
     border: 5px solid white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* 4. Listas - Dándoles espacio para respirar */
+/* 4. Listas */
 ul, ol {
     background: white;
     padding: 20px 40px;
@@ -53,10 +55,10 @@ li {
     margin-bottom: 10px;
 }
 
-/* 5. La Tabla - Eliminando el estilo antiguo de "border=1" */
+/* 5. La Tabla */
 table {
     width: 100%;
-    border-collapse: collapse; /* Une los bordes en líneas sencillas */
+    border-collapse: collapse;
     background: white;
     margin: 20px 0;
     overflow: hidden;
@@ -70,20 +72,20 @@ th, td {
 }
 
 th {
-    background-color: #492365; /* Púrpura Weber */
+    background-color: #492365;
     color: white;
 }
 
 tr:hover {
-    background-color: #f1f1f1; /* Efecto visual al pasar el ratón */
+    background-color: #f1f1f1;
 }
 
-/* 6. El Formulario - Diseño limpio y moderno */
+/* 6. El Formulario */
 form {
     background: white;
     padding: 25px;
     border-radius: 8px;
-    border-left: 8px solid #492365; /* Acento en Púrpura Weber */
+    border-left: 8px solid #492365;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
@@ -93,11 +95,11 @@ input[type="text"], textarea {
     margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Asegura que el padding no rompa el ancho */
+    box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #492365; /* Púrpura Weber */
+    background-color: #492365;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -105,12 +107,11 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
-    transition: background 0.3s ease;
     margin-top: 10px;
 }
 
 input[type="submit"]:hover {
-    background-color: #321845; /* Un púrpura más oscuro para el efecto hover */
+    background-color: #321845;
 }
 
 /* 7. Pie de página */
@@ -125,4 +126,13 @@ hr {
     border: 0;
     height: 1px;
     background: #ddd;
+}
+
+/* 8. Estilo para el Corazón ASCII */
+pre {
+    color: #492365; /* Para que el corazón sea púrpura */
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
 }
