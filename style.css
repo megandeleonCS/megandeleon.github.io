@@ -35,7 +35,7 @@ h2 {
 /* 3. Imágenes - ¡Ahora responsivas! */
 img {
     display: block;
-    max-width: 100%; /* Evita que la foto se salga del borde */
+    max-width: 50%; /* Evita que la foto se salga del borde */
     height: auto;
     margin: 20px auto; /* Centrada */
     border-radius: 15px;
