@@ -1,2 +1,4 @@
 # megandeleon.github.io
-Conoce mas sobre mí 
+Esta pagina fue creada para aprender de etiquteas HTML
+
+Aparte para conocer mas sobre mí 
